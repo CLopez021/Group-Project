@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="/static/writeReview.css">
 </head>
-<body>
+<div class="header">
+<body style="background-color:grey">
   <form method="POST">
       <div class = "rate">
         {{ form.csrf_token }}
@@ -24,5 +25,6 @@
       {{form.submit()}}
   </form>    
 </body>
+</div>
 </html>
 
