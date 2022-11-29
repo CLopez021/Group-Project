@@ -1,6 +1,4 @@
 from flask import Flask, render_template, session, url_for, request, redirect
-import pandas as pd
-import json
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.sql import text
 from flask_migrate import Migrate
